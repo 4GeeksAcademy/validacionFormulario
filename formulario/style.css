@@ -1,18 +1,32 @@
-
-
-#alerta{
-    width: 98%;
-   border-radius: 8px;
-    margin:auto;
+#alerta {
+  width: 98%;
+  border-radius: 8px;
+  margin: auto;
 }
 
-#cajaTargetas{
-    border-radius: 8px;
+#cajaTargetas {
+  border-radius: 8px;
 }
 
-#cajaComentario{
-    margin-top: 50px;
+#cajaComentario {
+  margin-top: 50px;
 }
-textarea{
-    resize: none;
+textarea {
+  resize: none;
+}
+
+input.error::placeholder {
+  color: red;
+}
+
+input.error {
+  border-color: red;
+}
+
+textarea.error::placeholder {
+  color: red;
+}
+
+textarea.error {
+  border-color: red;
 }
